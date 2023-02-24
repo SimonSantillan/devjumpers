@@ -82,3 +82,13 @@ Fusiono las ramas
 ``` 
 $ git merge v0.2
 ```
+## En local
+
+Añadir un archivo `2.txt` en la rama **V0.2**
+```
+$ touch 2.txt
+```
+Comiteo los cambios hechos y luego subo los cambios a mi repositorio remoto
+```
+$ git push --all
+```
