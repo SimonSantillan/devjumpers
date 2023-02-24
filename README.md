@@ -103,3 +103,30 @@ Me posiciono en la rama **v0.2** y escribo "adios" en el archivo `1.txt`
 ```
 $ echo "adios" > 1.txt
 ```
+
+## Lista de ramas fusionadas y no fusionadas
+
+![Fusionadas y no fusionadas](img/no-fusionadas.png)
+
+## Resolviendo conflictos
+
+![conflicto ramas](img/resolviendo-conflicto.png)
+
+En síntesis creé un conflicto y lo resolvi mediante VSCode borrando el mensaje de conflicto y dejando el código que quería, después lo comitee en la rama principal y desapareció el conflicto. (Lo mismo hice con el conflicto que tuve con los README.md)
+
+Una vez resuelto el conflicto borre la rama **v0.2**
+```
+$ git branch -d v0.2
+```
+
+## Listado cambios
+
+![listado cambios](img/listado-cambios.png)
+
+## Tabla de compas
+
+| NOMBRE | GITHUB |
+|--------|--------|
+|Aylen|https://github.com/Loreaylen|
+|Valeria|https://github.com/valeriazacariasl|
+|Santiago|https://github.com/Luvwen|
