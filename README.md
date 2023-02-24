@@ -57,10 +57,18 @@ Añado el archivo `1.txt` a mi repositorio local.
 ``` 
 $ touch 1.txt
 ```
+Luego de commitearlo lo subo a mi repositorio remoto
+```
+$ git push
+```
 
 ## Crear una rama
 
 Crear una rama llamada **v.2**
 ``` 
 $ git branch "v0.2"
+```
+Posiciono mi carpeta de trabajo a esa rama
+``` 
+$ git checkout v0.2
 ```
