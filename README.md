@@ -16,7 +16,51 @@ Creo el archivo README desde la consola
 ``` 
 $ touch README.md
 ```
-Hago un commit inicial una vez creado el archivo README.md
+Añado al área de ensayo el archivo README.md
 ``` 
-$ cd devjumpers
+$ git add .
+```
+Hago un commit inicial
+``` 
+$ git commit -m "commit inicial"
+```
+Subo los cambios hechos a mi repositorio remoto
+``` 
+$ git push
+```
+## Ignorando archivos
+
+Creo en mi repositorio local un archivo llamado `privado.txt`
+``` 
+$ touch privado.txt
+```
+Creo en mi repositorio local una carpeta llamada **privada**
+``` 
+$ mkdir privada
+```
+Creo el archivo `.gitignore` para decirle a git que archivos y carpetas ignorar
+``` 
+$ touch .gitignore
+```
+Le digo a Git que ignore el archivo llamado `privado.txt` (Para esto escribo el nombre del archivo y lo guardo en el archivo de texto .gitignore)
+``` 
+$ echo "privado.txt" > .gitignore
+```
+Le digo a Git que ignore la carpeta llamada **privada**
+``` 
+$ echo "privada" >> .gitignore
+```
+
+## En local
+
+Añado el archivo `1.txt` a mi repositorio local.
+``` 
+$ touch 1.txt
+```
+
+## Crear una rama
+
+Crear una rama llamada **v.2**
+``` 
+$ git branch "v0.2"
 ```
