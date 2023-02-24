@@ -20,3 +20,13 @@ Hago un commit inicial una vez creado el archivo README.md
 ``` 
 $ cd devjumpers
 ```
+## En local
+
+Añadir un archivo `2.txt` en la rama **V0.2**
+```
+$ touch 2.txt
+```
+Comiteo los cambios hechos y luego subo los cambios a mi repositorio remoto
+```
+$ git push
+```
