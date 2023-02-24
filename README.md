@@ -72,6 +72,17 @@ Posiciono mi carpeta de trabajo a esa rama
 ``` 
 $ git checkout v0.2
 ```
+## En local
+
+Añadir un archivo `2.txt` en la rama **V0.2**
+```
+$ touch 2.txt
+```
+Comiteo los cambios hechos y luego subo los cambios a mi repositorio remoto
+```
+$ git push --all
+```
+
 ## Merge directo
 
 Me posiciono en mi rama **main**
@@ -82,13 +93,13 @@ Fusiono las ramas
 ``` 
 $ git merge v0.2
 ```
-## En local
+## Merge con conflicto
 
-Añadir un archivo `2.txt` en la rama **V0.2**
+Coloco "hola" en el archivo `1.txt` de la rama principal
 ```
-$ touch 2.txt
+$ echo "hola" > 1.txt
 ```
-Comiteo los cambios hechos y luego subo los cambios a mi repositorio remoto
+Me posiciono en la rama **v0.2** y escribo "adios" en el archivo `1.txt`
 ```
-$ git push --all
+$ echo "adios" > 1.txt
 ```
