@@ -72,3 +72,13 @@ Posiciono mi carpeta de trabajo a esa rama
 ``` 
 $ git checkout v0.2
 ```
+## Merge directo
+
+Me posiciono en mi rama **main**
+``` 
+$ git checkout main
+```
+Fusiono las ramas
+``` 
+$ git merge v0.2
+```
